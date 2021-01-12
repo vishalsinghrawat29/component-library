@@ -26,22 +26,23 @@
 
     <h2>@Container</h2>
     <h3>fluid Container</h3>
-    <div>This is fluid container and it will go till the end of the page</div>
+    <div class="container-fluid">This is fluid container and it will go till the end of the page</div>
     <h3>center Container</h3>
-    <div>This is centered container and it will go till specified width of the page</div>
+    <div class="container container-center">This is centered container and it will go till specified width of the page</div>
 
     <hr>
 
     <h2>@link</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="primary-link link ">Primary Link</a>
+    <a href="/" class="secondary-link link">Secondary Link</a>
 
     <hr>
 
     <h2>@lists</h2>
 
     <h3>Unordered List</h3>
-    <ul>
+    <p>This will not have the bullet</p>
+    <ul class="non-bullet">
         <li>ItemOne</li>
         <li>ItemTwo</li>
         <li>ItemThree</li>
@@ -49,16 +50,16 @@
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Inline ItemOne</li>
-        <li>Inline ItemTwo</li>
-        <li>Inline ItemThree</li>
-        <li>Inline ItemFour</li>
+    <ul class="non-bullet">
+        <li class="list-inline">Inline ItemOne</li>
+        <li class="list-inline">Inline ItemTwo</li>
+        <li class="list-inline">Inline ItemThree</li>
+        <li class="list-inline">Inline ItemFour</li>
     </ul>
 
 
     <h3>Reversed Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>egg</li>
         <li>bread</li>
