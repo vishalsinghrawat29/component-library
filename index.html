@@ -28,7 +28,8 @@
     <h3>fluid Container</h3>
     <div class="container-fluid">This is fluid container and it will go till the end of the page</div>
     <h3>center Container</h3>
-    <div class="container container-center">This is centered container and it will go till specified width of the page</div>
+    <div class="container container-center">This is centered container and it will go till specified width of the page
+    </div>
 
     <hr>
 
@@ -73,13 +74,13 @@
         <div class="nav-brand ">iambrand</div>
         <ul class="non-bullet nav-pills">
             <li class="list-inline">
-                <a class="link link-active" href="/" >Home</a>
+                <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-inline">
-                <a class="link" href="/" >Product</a>
+                <a class="link" href="/">Product</a>
             </li>
             <li class="list-inline">
-                <a class="link" href="/" >Blog</a>
+                <a class="link" href="/">Blog</a>
             </li>
         </ul>
     </nav>
@@ -88,10 +89,10 @@
 
     <h2>@Header</h2>
 
-    <header>
-        <img src="images/hero.svg" alt="">
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" alt="">
 
-        <h1>Heading Inside here</h1>
+        <h1 class="hero-heading">Vishal the <span class="heading-inverted"> web developere </span> </h1>
 
     </header>
 
@@ -99,25 +100,34 @@
 
     <h2>@Section</h2>
 
-    <section>
-        <h3>White section</h3>
+    <section class="section">
+        <div class="container container-center">
+            <h3>White section</h3>
         <p>this will have white background</p>
+        </div>
+        
     </section>
 
-    <section>
-        <h3>off-white section</h3>
-        <p>this will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off-white section</h3>
+            <p>this will have gray background</p>
+        </div>
+        
     </section>
 
 
     <hr>
 
-    <footer>
-        <div>Some small section inside footer</div>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+    <footer class="footer">
+        <div class="footer-header">Some small section inside footer</div>
+        <ul class="social-links non-bullet">
+            <li class="list-inline"> <a class="link" href="http://"> socialOne
+            </a> </li>
+            <li class="list-inline"> <a class="link" href="http://"> socialTwo
+            </a> </li>
+            <li class="list-inline"> <a class="link" href="http://"> socialThree
+            </a> </li>
         </ul>
     </footer>
 
