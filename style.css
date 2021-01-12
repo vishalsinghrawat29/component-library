@@ -12,6 +12,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.margin-md{
+    margin:2rem;
+}
 /* container */
 .container {
     padding-left: 1rem;
@@ -29,8 +33,11 @@ hr {
 }
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .primary-link {
@@ -88,6 +95,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -97,6 +105,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
@@ -111,7 +120,7 @@ hr {
 .section{
     padding: 2rem;
 }
-.section h3 {
+.section h1 {
     text-align: center;
 }
 
@@ -125,6 +134,10 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{
